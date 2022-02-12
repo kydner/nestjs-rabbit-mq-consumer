@@ -8,7 +8,7 @@ async function bootstrap() {
     transport: Transport.RMQ,
     options: {
       urls: [
-        'amqps://qnfrqfkg:F9hmByxPxiwDrvCiknuFNrVFo-rWNLNd@cougar.rmq.cloudamqp.com/qnfrqfkg',
+        'rabbit-mq-url-here',
       ],
       queue: RabbitMQQueueEnum.RQ_EMAIL,
       // false = manual acknowledgement; true = automatic acknowledgment
